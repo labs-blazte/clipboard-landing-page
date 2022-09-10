@@ -1,0 +1,11 @@
+.section-skills {
+  h3 {
+    margin-bottom: 0;
+  }
+
+  .skills-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}

@@ -1,0 +1,10 @@
+.section-powerby .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3rem;
+
+  > * {
+    max-width: toRem(150);
+  }
+}
