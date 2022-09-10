@@ -556,7 +556,7 @@ img {
 .hero-section {
   background-image: url("/assets/images/bg-header-mobile.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding-top: 7rem;
 }
 .hero-section .logo {
