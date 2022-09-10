@@ -1,0 +1,17 @@
+$sizes-gap: (
+  "s": 5,
+  "m": 10,
+  "l": 16,
+);
+
+@each $name-size, $size-gap-value in $sizes-gap {
+  .gap-col-#{$name-size} {
+    column-gap: toRem($size-gap-value);
+  }
+  .gap-row-#{$name-size} {
+    row-gap: toRem($size-gap-value);
+  }
+  .gap-#{$name-size} {
+    gap: toRem($size-gap-value);
+  }
+}

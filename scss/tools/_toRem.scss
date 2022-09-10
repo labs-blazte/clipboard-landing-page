@@ -1,0 +1,4 @@
+@function toRem($size) {
+  $remsize: calc($size / $fs-base);
+  @return $remsize * 1rem;
+}
