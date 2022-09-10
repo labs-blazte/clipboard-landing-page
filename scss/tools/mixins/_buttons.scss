@@ -1,4 +1,22 @@
 @mixin button {
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border-radius: 25px;
+  color: $button-color-light;
+  font-family: $font-family;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@mixin button-primary {
+  box-shadow: inset 0px -2px darken($primary-color, 10%);
+  background-color: $primary-color;
+}
+
+@mixin button-secondary {
+  box-shadow: inset 0px -2px darken($secondary-color, 10%);
+  background-color: $secondary-color;
 }
