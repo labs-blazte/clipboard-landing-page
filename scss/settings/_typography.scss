@@ -1,1 +1,15 @@
 $font-family: "Bai Jamjuree", sans-serif;
+
+$_font-base: 18;
+
+$_fs-17: calc(16.9 / $_font-base) + rem;
+$_fs-18: calc(18 / $_font-base) + rem;
+$_fs-22: calc(22 / $_font-base) + rem;
+$_fs-26: calc(26 / $_font-base) + rem;
+$_fs-32: calc(32 / $_font-base) + rem;
+
+$fs-title-l: $_fs-32;
+$fs-title-m: $_fs-26;
+$fs-title-s: $_fs-22;
+$fs-text-s: $_fs-17;
+$fs-text-m: $_fs-18;

@@ -1,0 +1,19 @@
+h1 {
+  font-size: $fs-title-l;
+}
+
+h2 {
+  font-size: $fs-title-m;
+}
+
+h3 {
+  font-size: $fs-title-s;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 1.3;
+  color: $text-dark-gray-color;
+}
