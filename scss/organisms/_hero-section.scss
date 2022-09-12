@@ -4,6 +4,15 @@
   background-size: cover;
   padding-top: 7rem;
 
+  @include media-size("m") {
+    background-image: url("/assets/images/bg-header-desktop.png");
+    display: flex;
+    justify-content: center;
+    .container {
+      max-width: $max-width;
+    }
+  }
+
   .logo {
     margin-bottom: 3rem;
   }

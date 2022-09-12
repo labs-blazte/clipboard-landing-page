@@ -1,0 +1,8 @@
+.keep-track-section {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    max-width: $max-width;
+  }
+}

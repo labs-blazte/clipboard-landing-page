@@ -1,0 +1,15 @@
+$media-queries: (
+  "m": "45rem",
+  "l": "64rem",
+  "xl": "90rem",
+);
+
+@mixin media-size($size) {
+  @each $media-query, $media-val in $media-queries {
+    @if $size == $media-query {
+      @media screen and (min-width: $media-val) {
+        @content;
+      }
+    }
+  }
+}

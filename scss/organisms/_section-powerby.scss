@@ -7,4 +7,9 @@
   > * {
     max-width: toRem(150);
   }
+
+  @include media-size("m") {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

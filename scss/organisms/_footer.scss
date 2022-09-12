@@ -2,6 +2,13 @@
   display: flex;
   row-gap: 2rem;
   flex-direction: column;
+
+  @include media-size("m") {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 .footer {
@@ -14,6 +21,12 @@
     flex-direction: column;
     align-items: center;
     row-gap: 1rem;
+
+    @include media-size("m") {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 50%;
+    }
   }
 
   &__right {
@@ -24,5 +37,6 @@
 
   &__attribution {
     text-align: center;
+    flex-basis: 100%;
   }
 }

@@ -6,6 +6,17 @@
   .skills-items {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 2.5rem;
+
+    @include media-size("l") {
+      flex-direction: row;
+      > * {
+        max-width: calc(100% / 3 - 2.5rem);
+        flex-basis: 100%;
+      }
+    }
   }
 }

@@ -5,4 +5,34 @@
   .text {
     text-align: center;
   }
+
+  @include media-size("m") {
+    .container {
+      max-width: $max-width-big;
+      display: flex;
+      column-gap: 7rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    &__items {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .text {
+      text-align: left;
+    }
+
+    h3 {
+      text-align: left;
+    }
+  }
+
+  @include media-size("l") {
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
