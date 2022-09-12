@@ -383,7 +383,7 @@ a {
   .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 75rem;
+    max-width: 90rem;
   }
 }
 
@@ -548,7 +548,7 @@ img {
   .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 75rem;
+    max-width: 90rem;
   }
 }
 
@@ -593,7 +593,7 @@ img {
     justify-content: center;
   }
   .hero-section .container {
-    max-width: 48rem;
+    max-width: 32rem;
   }
 }
 .hero-section .logo {
@@ -608,7 +608,7 @@ img {
 }
 @media screen and (min-width: 45rem) {
   .section-details .container {
-    max-width: 75rem;
+    max-width: 90rem;
     display: flex;
     column-gap: 7rem;
     padding: 0;
@@ -634,6 +634,11 @@ img {
 
 .section-skills h3 {
   margin-bottom: 0;
+}
+@media screen and (min-width: 64rem) {
+  .section-skills .container {
+    max-width: 75rem;
+  }
 }
 .section-skills .skills-items {
   display: flex;
@@ -666,6 +671,7 @@ img {
   .section-powerby .container {
     flex-direction: row;
     justify-content: space-between;
+    max-width: 75rem;
   }
 }
 
@@ -687,6 +693,11 @@ img {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: #f5f6f8;
+}
+@media screen and (min-width: 64rem) {
+  .footer .container {
+    max-width: 75rem;
+  }
 }
 .footer__middle {
   display: flex;
@@ -716,11 +727,15 @@ img {
   justify-content: center;
 }
 .keep-track-section .container {
-  max-width: 48rem;
+  max-width: 32rem;
 }
 
 .divice-section {
   width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /*# sourceMappingURL=index.css.map */

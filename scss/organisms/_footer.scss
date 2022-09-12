@@ -16,6 +16,12 @@
   padding-bottom: 2rem;
   background-color: $bg-gray;
 
+  @include media-size("l") {
+    .container {
+      max-width: $max-width-medium;
+    }
+  }
+
   &__middle {
     display: flex;
     flex-direction: column;
